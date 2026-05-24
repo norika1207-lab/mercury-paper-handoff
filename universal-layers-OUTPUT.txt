@@ -1,0 +1,138 @@
+loaded 15 models: ['ds-r1-7b-tierB', 'granite-8b', 'phi3-medium-tierB', 'gemma2-9b-tierB', 'olmo2-7b-tierB', 'mistral-7b-tierB', 'qwen14b-tierB', 'falcon3-7b-tierB', 'yi-9b', 'yi-9b-tierB', 'olmo2-7b', 'qwen2.5-7b-instruct', 'gemma2-9b', 'qwen3b-tierB', 'granite-8b-tierB']
+
+================================================================================
+  UNIVERSAL LAYER DEPTH SLOTS — where do cross-model matches concentrate?
+================================================================================
+depth%     pair_count   avg_sim    pairs_aligned
+--------------------------------------------------------------------------------
+  0-10 %           18      0.729   18/84 model-pairs aligned
+ 10-20 %           26      0.745   26/84 model-pairs aligned
+ 20-30 %           37      0.748   37/84 model-pairs aligned
+ 30-40 %           40      0.752   40/84 model-pairs aligned
+ 40-50 %           45      0.751   45/84 model-pairs aligned
+ 50-60 %           54      0.741   54/84 model-pairs aligned
+ 60-70 %           39      0.733   39/84 model-pairs aligned
+ 70-80 %           36      0.737   36/84 model-pairs aligned
+ 80-90 %           18      0.738   18/84 model-pairs aligned
+ 90-100%           19      0.713   19/84 model-pairs aligned
+
+================================================================================
+  ★ STRONGEST SAME-DEPTH CROSS-MODEL ALIGNMENTS (Δdepth < 5%)
+================================================================================
+sim     modelA                   L   /    %   modelB                   L   /    %
+----------------------------------------------------------------------------------------------------
+0.868  qwen2.5-7b-instruct     15 / 28  55%   falcon3-7b-tierB        16 / 28  59%
+0.852  qwen3b-tierB             5 / 36  14%   qwen2.5-7b-instruct      3 / 28  11%
+0.815  qwen2.5-7b-instruct      5 / 28  18%   falcon3-7b-tierB         4 / 28  14%
+0.803  ds-r1-7b-tierB          27 / 28 100%   falcon3-7b-tierB        27 / 28 100%
+0.803  qwen3b-tierB             8 / 36  22%   qwen2.5-7b-instruct      5 / 28  18%
+0.796  qwen3b-tierB             8 / 36  22%   granite-8b-tierB        10 / 40  25%
+0.796  granite-8b-tierB        10 / 40  25%   qwen3b-tierB             8 / 36  22%
+0.793  qwen2.5-7b-instruct     11 / 28  40%   granite-8b-tierB        16 / 40  41%
+0.793  granite-8b-tierB        16 / 40  41%   qwen2.5-7b-instruct     11 / 28  40%
+0.788  granite-8b-tierB        16 / 40  41%   falcon3-7b-tierB        10 / 28  37%
+0.788  falcon3-7b-tierB        10 / 28  37%   granite-8b-tierB        16 / 40  41%
+0.786  qwen3b-tierB             7 / 36  20%   qwen2.5-7b-instruct      5 / 28  18%
+0.783  qwen3b-tierB            12 / 36  34%   qwen2.5-7b-instruct      8 / 28  29%
+0.779  falcon3-7b-tierB        23 / 28  85%   mistral-7b-tierB        25 / 32  80%
+0.777  qwen14b-tierB           22 / 48  46%   ds-r1-7b-tierB          13 / 28  48%
+0.770  qwen2.5-7b-instruct     21 / 28  77%   falcon3-7b-tierB        22 / 28  81%
+0.769  ds-r1-7b-tierB           6 / 28  22%   falcon3-7b-tierB         6 / 28  22%
+0.760  qwen2.5-7b-instruct      3 / 28  11%   falcon3-7b-tierB         3 / 28  11%
+0.754  qwen14b-tierB           40 / 48  85%   gemma2-9b-tierB         33 / 42  80%
+0.754  gemma2-9b-tierB         33 / 42  80%   qwen14b-tierB           40 / 48  85%
+
+================================================================================
+  ⚒ FRANKENSTEIN-READY LAYERS — each model's most cross-compatible layers
+================================================================================
+
+  ds-r1-7b-tierB (28L):
+    L21 ( 77% depth)  best cross-arch sim = 0.809
+    L 6 ( 22% depth)  best cross-arch sim = 0.807
+    L27 (100% depth)  best cross-arch sim = 0.803
+    L 1 (  3% depth)  best cross-arch sim = 0.792
+    L11 ( 40% depth)  best cross-arch sim = 0.787
+
+  falcon3-7b-tierB (28L):
+    L16 ( 59% depth)  best cross-arch sim = 0.868
+    L10 ( 37% depth)  best cross-arch sim = 0.844
+    L22 ( 81% depth)  best cross-arch sim = 0.834
+    L 4 ( 14% depth)  best cross-arch sim = 0.815
+    L 5 ( 18% depth)  best cross-arch sim = 0.812
+
+  gemma2-9b (42L):
+    L41 (100% depth)  best cross-arch sim = 0.719
+    L 0 (  0% depth)  best cross-arch sim = 0.000
+    L 1 (  2% depth)  best cross-arch sim = 0.000
+    L 2 (  4% depth)  best cross-arch sim = 0.000
+    L 3 (  7% depth)  best cross-arch sim = 0.000
+
+  gemma2-9b-tierB (42L):
+    L15 ( 36% depth)  best cross-arch sim = 0.790
+    L40 ( 97% depth)  best cross-arch sim = 0.779
+    L32 ( 78% depth)  best cross-arch sim = 0.776
+    L 3 (  7% depth)  best cross-arch sim = 0.775
+    L38 ( 92% depth)  best cross-arch sim = 0.775
+
+  granite-8b (40L):
+    L39 (100% depth)  best cross-arch sim = 0.809
+    L 0 (  0% depth)  best cross-arch sim = 0.000
+    L 1 (  2% depth)  best cross-arch sim = 0.000
+    L 2 (  5% depth)  best cross-arch sim = 0.000
+    L 3 (  7% depth)  best cross-arch sim = 0.000
+
+  granite-8b-tierB (40L):
+    L10 ( 25% depth)  best cross-arch sim = 0.844
+    L21 ( 53% depth)  best cross-arch sim = 0.842
+    L16 ( 41% depth)  best cross-arch sim = 0.825
+    L 0 (  0% depth)  best cross-arch sim = 0.812
+    L28 ( 71% depth)  best cross-arch sim = 0.786
+
+  mistral-7b-tierB (32L):
+    L27 ( 87% depth)  best cross-arch sim = 0.849
+    L 3 (  9% depth)  best cross-arch sim = 0.800
+    L17 ( 54% depth)  best cross-arch sim = 0.783
+    L25 ( 80% depth)  best cross-arch sim = 0.779
+    L23 ( 74% depth)  best cross-arch sim = 0.777
+
+  olmo2-7b-tierB (32L):
+    L31 (100% depth)  best cross-arch sim = 0.764
+    L21 ( 67% depth)  best cross-arch sim = 0.752
+    L20 ( 64% depth)  best cross-arch sim = 0.750
+    L26 ( 83% depth)  best cross-arch sim = 0.748
+    L23 ( 74% depth)  best cross-arch sim = 0.736
+
+  phi3-medium-tierB (40L):
+    L 1 (  2% depth)  best cross-arch sim = 0.719
+    L20 ( 51% depth)  best cross-arch sim = 0.715
+    L 0 (  0% depth)  best cross-arch sim = 0.710
+    L38 ( 97% depth)  best cross-arch sim = 0.710
+    L 4 ( 10% depth)  best cross-arch sim = 0.707
+
+  qwen14b-tierB (48L):
+    L 5 ( 10% depth)  best cross-arch sim = 0.795
+    L22 ( 46% depth)  best cross-arch sim = 0.777
+    L18 ( 38% depth)  best cross-arch sim = 0.777
+    L43 ( 91% depth)  best cross-arch sim = 0.772
+    L13 ( 27% depth)  best cross-arch sim = 0.765
+
+  qwen2.5-7b-instruct (28L):
+    L15 ( 55% depth)  best cross-arch sim = 0.868
+    L11 ( 40% depth)  best cross-arch sim = 0.855
+    L 3 ( 11% depth)  best cross-arch sim = 0.852
+    L 8 ( 29% depth)  best cross-arch sim = 0.842
+    L21 ( 77% depth)  best cross-arch sim = 0.839
+
+  qwen3b-tierB (36L):
+    L12 ( 34% depth)  best cross-arch sim = 0.855
+    L 5 ( 14% depth)  best cross-arch sim = 0.852
+    L14 ( 40% depth)  best cross-arch sim = 0.850
+    L18 ( 51% depth)  best cross-arch sim = 0.849
+    L21 ( 60% depth)  best cross-arch sim = 0.839
+
+  yi-9b-tierB (48L):
+    L 5 ( 10% depth)  best cross-arch sim = 0.800
+    L34 ( 72% depth)  best cross-arch sim = 0.779
+    L 0 (  0% depth)  best cross-arch sim = 0.764
+    L12 ( 25% depth)  best cross-arch sim = 0.741
+    L46 ( 97% depth)  best cross-arch sim = 0.733

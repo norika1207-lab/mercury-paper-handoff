@@ -1,0 +1,480 @@
+{
+  "label": "olmo2-7b",
+  "n_layer": 32,
+  "hidden": 4096,
+  "tier": "B",
+  "source": "heat-summary-olmo2-7b-1779508400.json",
+  "fingerprints": [
+    {
+      "layer": 0,
+      "n_hot": 0,
+      "top_hot_dims": [],
+      "heat_concentration": 0.0,
+      "n_unique_hot": 0,
+      "dim_range_ratio": {
+        "low": 0,
+        "mid": 0,
+        "high": 0
+      },
+      "q_distribution": {},
+      "total_heat": 0
+    },
+    {
+      "layer": 1,
+      "n_hot": 0,
+      "top_hot_dims": [],
+      "heat_concentration": 0.0,
+      "n_unique_hot": 0,
+      "dim_range_ratio": {
+        "low": 0,
+        "mid": 0,
+        "high": 0
+      },
+      "q_distribution": {},
+      "total_heat": 0
+    },
+    {
+      "layer": 2,
+      "n_hot": 0,
+      "top_hot_dims": [],
+      "heat_concentration": 0.0,
+      "n_unique_hot": 0,
+      "dim_range_ratio": {
+        "low": 0,
+        "mid": 0,
+        "high": 0
+      },
+      "q_distribution": {},
+      "total_heat": 0
+    },
+    {
+      "layer": 3,
+      "n_hot": 0,
+      "top_hot_dims": [],
+      "heat_concentration": 0.0,
+      "n_unique_hot": 0,
+      "dim_range_ratio": {
+        "low": 0,
+        "mid": 0,
+        "high": 0
+      },
+      "q_distribution": {},
+      "total_heat": 0
+    },
+    {
+      "layer": 4,
+      "n_hot": 0,
+      "top_hot_dims": [],
+      "heat_concentration": 0.0,
+      "n_unique_hot": 0,
+      "dim_range_ratio": {
+        "low": 0,
+        "mid": 0,
+        "high": 0
+      },
+      "q_distribution": {},
+      "total_heat": 0
+    },
+    {
+      "layer": 5,
+      "n_hot": 0,
+      "top_hot_dims": [],
+      "heat_concentration": 0.0,
+      "n_unique_hot": 0,
+      "dim_range_ratio": {
+        "low": 0,
+        "mid": 0,
+        "high": 0
+      },
+      "q_distribution": {},
+      "total_heat": 0
+    },
+    {
+      "layer": 6,
+      "n_hot": 0,
+      "top_hot_dims": [],
+      "heat_concentration": 0.0,
+      "n_unique_hot": 0,
+      "dim_range_ratio": {
+        "low": 0,
+        "mid": 0,
+        "high": 0
+      },
+      "q_distribution": {},
+      "total_heat": 0
+    },
+    {
+      "layer": 7,
+      "n_hot": 0,
+      "top_hot_dims": [],
+      "heat_concentration": 0.0,
+      "n_unique_hot": 0,
+      "dim_range_ratio": {
+        "low": 0,
+        "mid": 0,
+        "high": 0
+      },
+      "q_distribution": {},
+      "total_heat": 0
+    },
+    {
+      "layer": 8,
+      "n_hot": 0,
+      "top_hot_dims": [],
+      "heat_concentration": 0.0,
+      "n_unique_hot": 0,
+      "dim_range_ratio": {
+        "low": 0,
+        "mid": 0,
+        "high": 0
+      },
+      "q_distribution": {},
+      "total_heat": 0
+    },
+    {
+      "layer": 9,
+      "n_hot": 0,
+      "top_hot_dims": [],
+      "heat_concentration": 0.0,
+      "n_unique_hot": 0,
+      "dim_range_ratio": {
+        "low": 0,
+        "mid": 0,
+        "high": 0
+      },
+      "q_distribution": {},
+      "total_heat": 0
+    },
+    {
+      "layer": 10,
+      "n_hot": 0,
+      "top_hot_dims": [],
+      "heat_concentration": 0.0,
+      "n_unique_hot": 0,
+      "dim_range_ratio": {
+        "low": 0,
+        "mid": 0,
+        "high": 0
+      },
+      "q_distribution": {},
+      "total_heat": 0
+    },
+    {
+      "layer": 11,
+      "n_hot": 0,
+      "top_hot_dims": [],
+      "heat_concentration": 0.0,
+      "n_unique_hot": 0,
+      "dim_range_ratio": {
+        "low": 0,
+        "mid": 0,
+        "high": 0
+      },
+      "q_distribution": {},
+      "total_heat": 0
+    },
+    {
+      "layer": 12,
+      "n_hot": 0,
+      "top_hot_dims": [],
+      "heat_concentration": 0.0,
+      "n_unique_hot": 0,
+      "dim_range_ratio": {
+        "low": 0,
+        "mid": 0,
+        "high": 0
+      },
+      "q_distribution": {},
+      "total_heat": 0
+    },
+    {
+      "layer": 13,
+      "n_hot": 0,
+      "top_hot_dims": [],
+      "heat_concentration": 0.0,
+      "n_unique_hot": 0,
+      "dim_range_ratio": {
+        "low": 0,
+        "mid": 0,
+        "high": 0
+      },
+      "q_distribution": {},
+      "total_heat": 0
+    },
+    {
+      "layer": 14,
+      "n_hot": 0,
+      "top_hot_dims": [],
+      "heat_concentration": 0.0,
+      "n_unique_hot": 0,
+      "dim_range_ratio": {
+        "low": 0,
+        "mid": 0,
+        "high": 0
+      },
+      "q_distribution": {},
+      "total_heat": 0
+    },
+    {
+      "layer": 15,
+      "n_hot": 0,
+      "top_hot_dims": [],
+      "heat_concentration": 0.0,
+      "n_unique_hot": 0,
+      "dim_range_ratio": {
+        "low": 0,
+        "mid": 0,
+        "high": 0
+      },
+      "q_distribution": {},
+      "total_heat": 0
+    },
+    {
+      "layer": 16,
+      "n_hot": 0,
+      "top_hot_dims": [],
+      "heat_concentration": 0.0,
+      "n_unique_hot": 0,
+      "dim_range_ratio": {
+        "low": 0,
+        "mid": 0,
+        "high": 0
+      },
+      "q_distribution": {},
+      "total_heat": 0
+    },
+    {
+      "layer": 17,
+      "n_hot": 0,
+      "top_hot_dims": [],
+      "heat_concentration": 0.0,
+      "n_unique_hot": 0,
+      "dim_range_ratio": {
+        "low": 0,
+        "mid": 0,
+        "high": 0
+      },
+      "q_distribution": {},
+      "total_heat": 0
+    },
+    {
+      "layer": 18,
+      "n_hot": 0,
+      "top_hot_dims": [],
+      "heat_concentration": 0.0,
+      "n_unique_hot": 0,
+      "dim_range_ratio": {
+        "low": 0,
+        "mid": 0,
+        "high": 0
+      },
+      "q_distribution": {},
+      "total_heat": 0
+    },
+    {
+      "layer": 19,
+      "n_hot": 0,
+      "top_hot_dims": [],
+      "heat_concentration": 0.0,
+      "n_unique_hot": 0,
+      "dim_range_ratio": {
+        "low": 0,
+        "mid": 0,
+        "high": 0
+      },
+      "q_distribution": {},
+      "total_heat": 0
+    },
+    {
+      "layer": 20,
+      "n_hot": 0,
+      "top_hot_dims": [],
+      "heat_concentration": 0.0,
+      "n_unique_hot": 0,
+      "dim_range_ratio": {
+        "low": 0,
+        "mid": 0,
+        "high": 0
+      },
+      "q_distribution": {},
+      "total_heat": 0
+    },
+    {
+      "layer": 21,
+      "n_hot": 0,
+      "top_hot_dims": [],
+      "heat_concentration": 0.0,
+      "n_unique_hot": 0,
+      "dim_range_ratio": {
+        "low": 0,
+        "mid": 0,
+        "high": 0
+      },
+      "q_distribution": {},
+      "total_heat": 0
+    },
+    {
+      "layer": 22,
+      "n_hot": 0,
+      "top_hot_dims": [],
+      "heat_concentration": 0.0,
+      "n_unique_hot": 0,
+      "dim_range_ratio": {
+        "low": 0,
+        "mid": 0,
+        "high": 0
+      },
+      "q_distribution": {},
+      "total_heat": 0
+    },
+    {
+      "layer": 23,
+      "n_hot": 0,
+      "top_hot_dims": [],
+      "heat_concentration": 0.0,
+      "n_unique_hot": 0,
+      "dim_range_ratio": {
+        "low": 0,
+        "mid": 0,
+        "high": 0
+      },
+      "q_distribution": {},
+      "total_heat": 0
+    },
+    {
+      "layer": 24,
+      "n_hot": 0,
+      "top_hot_dims": [],
+      "heat_concentration": 0.0,
+      "n_unique_hot": 0,
+      "dim_range_ratio": {
+        "low": 0,
+        "mid": 0,
+        "high": 0
+      },
+      "q_distribution": {},
+      "total_heat": 0
+    },
+    {
+      "layer": 25,
+      "n_hot": 0,
+      "top_hot_dims": [],
+      "heat_concentration": 0.0,
+      "n_unique_hot": 0,
+      "dim_range_ratio": {
+        "low": 0,
+        "mid": 0,
+        "high": 0
+      },
+      "q_distribution": {},
+      "total_heat": 0
+    },
+    {
+      "layer": 26,
+      "n_hot": 0,
+      "top_hot_dims": [],
+      "heat_concentration": 0.0,
+      "n_unique_hot": 0,
+      "dim_range_ratio": {
+        "low": 0,
+        "mid": 0,
+        "high": 0
+      },
+      "q_distribution": {},
+      "total_heat": 0
+    },
+    {
+      "layer": 27,
+      "n_hot": 0,
+      "top_hot_dims": [],
+      "heat_concentration": 0.0,
+      "n_unique_hot": 0,
+      "dim_range_ratio": {
+        "low": 0,
+        "mid": 0,
+        "high": 0
+      },
+      "q_distribution": {},
+      "total_heat": 0
+    },
+    {
+      "layer": 28,
+      "n_hot": 0,
+      "top_hot_dims": [],
+      "heat_concentration": 0.0,
+      "n_unique_hot": 0,
+      "dim_range_ratio": {
+        "low": 0,
+        "mid": 0,
+        "high": 0
+      },
+      "q_distribution": {},
+      "total_heat": 0
+    },
+    {
+      "layer": 29,
+      "n_hot": 0,
+      "top_hot_dims": [],
+      "heat_concentration": 0.0,
+      "n_unique_hot": 0,
+      "dim_range_ratio": {
+        "low": 0,
+        "mid": 0,
+        "high": 0
+      },
+      "q_distribution": {},
+      "total_heat": 0
+    },
+    {
+      "layer": 30,
+      "n_hot": 0,
+      "top_hot_dims": [],
+      "heat_concentration": 0.0,
+      "n_unique_hot": 0,
+      "dim_range_ratio": {
+        "low": 0,
+        "mid": 0,
+        "high": 0
+      },
+      "q_distribution": {},
+      "total_heat": 0
+    },
+    {
+      "layer": 31,
+      "n_hot": 200,
+      "n_unique_hot": 200,
+      "top_hot_dims": [
+        220,
+        320,
+        98,
+        11,
+        163,
+        323,
+        162,
+        264,
+        330,
+        1879,
+        164,
+        2832,
+        304,
+        482,
+        720,
+        719,
+        25,
+        477,
+        279,
+        1473
+      ],
+      "total_heat": 8447,
+      "heat_concentration": 0.054,
+      "dim_range_ratio": {
+        "low": 0.721,
+        "mid": 0.157,
+        "high": 0.121
+      },
+      "q_distribution": {
+        "0": 200
+      }
+    }
+  ]
+}

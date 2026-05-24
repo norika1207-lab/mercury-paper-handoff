@@ -1,0 +1,887 @@
+{
+  "label": "qwen3b-tierB",
+  "n_layer": 36,
+  "hidden": 2048,
+  "tier": "B",
+  "source": "heat-summary-qwen3b-tierB-1779466974.json",
+  "fingerprints": [
+    {
+      "layer": 0,
+      "n_hot": 11,
+      "n_unique_hot": 11,
+      "top_hot_dims": [
+        1259,
+        465,
+        468,
+        1230,
+        486,
+        1245,
+        477,
+        1239,
+        1270,
+        444,
+        443
+      ],
+      "total_heat": 110,
+      "heat_concentration": 0.273,
+      "dim_range_ratio": {
+        "low": 0.545,
+        "mid": 0.455,
+        "high": 0.0
+      },
+      "q_distribution": {
+        "0": 11
+      }
+    },
+    {
+      "layer": 1,
+      "n_hot": 6,
+      "n_unique_hot": 5,
+      "top_hot_dims": [
+        1335,
+        1361,
+        1383,
+        1375,
+        1270
+      ],
+      "total_heat": 60,
+      "heat_concentration": 0.5,
+      "dim_range_ratio": {
+        "low": 0.0,
+        "mid": 0.667,
+        "high": 0.333
+      },
+      "q_distribution": {
+        "1": 1,
+        "0": 5
+      }
+    },
+    {
+      "layer": 2,
+      "n_hot": 2,
+      "n_unique_hot": 2,
+      "top_hot_dims": [
+        560,
+        636
+      ],
+      "total_heat": 20,
+      "heat_concentration": 1.0,
+      "dim_range_ratio": {
+        "low": 1.0,
+        "mid": 0.0,
+        "high": 0.0
+      },
+      "q_distribution": {
+        "0": 2
+      }
+    },
+    {
+      "layer": 3,
+      "n_hot": 18,
+      "n_unique_hot": 16,
+      "top_hot_dims": [
+        1219,
+        1216,
+        1180,
+        1191,
+        1194,
+        1270,
+        1300,
+        1259,
+        1239,
+        1238,
+        1230,
+        1245,
+        1080,
+        1078,
+        1073,
+        1054
+      ],
+      "total_heat": 180,
+      "heat_concentration": 0.167,
+      "dim_range_ratio": {
+        "low": 0.0,
+        "mid": 1.0,
+        "high": 0.0
+      },
+      "q_distribution": {
+        "2": 1,
+        "0": 16,
+        "1": 1
+      }
+    },
+    {
+      "layer": 4,
+      "n_hot": 0,
+      "top_hot_dims": [],
+      "heat_concentration": 0.0,
+      "n_unique_hot": 0,
+      "dim_range_ratio": {
+        "low": 0,
+        "mid": 0,
+        "high": 0
+      },
+      "q_distribution": {},
+      "total_heat": 0
+    },
+    {
+      "layer": 5,
+      "n_hot": 17,
+      "n_unique_hot": 15,
+      "top_hot_dims": [
+        1611,
+        164,
+        141,
+        134,
+        116,
+        194,
+        227,
+        174,
+        53,
+        71,
+        52,
+        34,
+        50,
+        102,
+        342
+      ],
+      "total_heat": 170,
+      "heat_concentration": 0.176,
+      "dim_range_ratio": {
+        "low": 0.941,
+        "mid": 0.0,
+        "high": 0.059
+      },
+      "q_distribution": {
+        "0": 14,
+        "6": 1,
+        "7": 1,
+        "9": 1
+      }
+    },
+    {
+      "layer": 6,
+      "n_hot": 0,
+      "top_hot_dims": [],
+      "heat_concentration": 0.0,
+      "n_unique_hot": 0,
+      "dim_range_ratio": {
+        "low": 0,
+        "mid": 0,
+        "high": 0
+      },
+      "q_distribution": {},
+      "total_heat": 0
+    },
+    {
+      "layer": 7,
+      "n_hot": 16,
+      "n_unique_hot": 15,
+      "top_hot_dims": [
+        1527,
+        1491,
+        1489,
+        1488,
+        1484,
+        1481,
+        1494,
+        1579,
+        1589,
+        1586,
+        1540,
+        1561,
+        1400,
+        1383,
+        1410
+      ],
+      "total_heat": 160,
+      "heat_concentration": 0.188,
+      "dim_range_ratio": {
+        "low": 0.0,
+        "mid": 0.0,
+        "high": 1.0
+      },
+      "q_distribution": {
+        "0": 15,
+        "1": 1
+      }
+    },
+    {
+      "layer": 8,
+      "n_hot": 14,
+      "n_unique_hot": 13,
+      "top_hot_dims": [
+        1484,
+        1488,
+        1489,
+        1477,
+        1478,
+        1481,
+        1491,
+        1494,
+        1446,
+        1456,
+        1467,
+        1540,
+        1561
+      ],
+      "total_heat": 140,
+      "heat_concentration": 0.214,
+      "dim_range_ratio": {
+        "low": 0.0,
+        "mid": 0.0,
+        "high": 1.0
+      },
+      "q_distribution": {
+        "0": 12,
+        "1": 2
+      }
+    },
+    {
+      "layer": 9,
+      "n_hot": 4,
+      "n_unique_hot": 4,
+      "top_hot_dims": [
+        1579,
+        1598,
+        1611,
+        1586
+      ],
+      "total_heat": 40,
+      "heat_concentration": 0.75,
+      "dim_range_ratio": {
+        "low": 0.0,
+        "mid": 0.0,
+        "high": 1.0
+      },
+      "q_distribution": {
+        "0": 4
+      }
+    },
+    {
+      "layer": 10,
+      "n_hot": 11,
+      "n_unique_hot": 9,
+      "top_hot_dims": [
+        1194,
+        1191,
+        1192,
+        1219,
+        1221,
+        1136,
+        1170,
+        1180,
+        1300
+      ],
+      "total_heat": 110,
+      "heat_concentration": 0.273,
+      "dim_range_ratio": {
+        "low": 0.0,
+        "mid": 1.0,
+        "high": 0.0
+      },
+      "q_distribution": {
+        "0": 9,
+        "5": 1,
+        "6": 1
+      }
+    },
+    {
+      "layer": 11,
+      "n_hot": 0,
+      "top_hot_dims": [],
+      "heat_concentration": 0.0,
+      "n_unique_hot": 0,
+      "dim_range_ratio": {
+        "low": 0,
+        "mid": 0,
+        "high": 0
+      },
+      "q_distribution": {},
+      "total_heat": 0
+    },
+    {
+      "layer": 12,
+      "n_hot": 28,
+      "n_unique_hot": 24,
+      "top_hot_dims": [
+        1639,
+        1631,
+        1675,
+        1670,
+        1657,
+        1628,
+        1598,
+        1589,
+        1586,
+        1579,
+        1623,
+        1619,
+        1618,
+        1614,
+        1611,
+        1718,
+        1715,
+        1724,
+        1680,
+        1697
+      ],
+      "total_heat": 280,
+      "heat_concentration": 0.107,
+      "dim_range_ratio": {
+        "low": 0.0,
+        "mid": 0.0,
+        "high": 1.0
+      },
+      "q_distribution": {
+        "0": 23,
+        "1": 1,
+        "7": 1,
+        "6": 1,
+        "5": 1,
+        "2": 1
+      }
+    },
+    {
+      "layer": 13,
+      "n_hot": 0,
+      "top_hot_dims": [],
+      "heat_concentration": 0.0,
+      "n_unique_hot": 0,
+      "dim_range_ratio": {
+        "low": 0,
+        "mid": 0,
+        "high": 0
+      },
+      "q_distribution": {},
+      "total_heat": 0
+    },
+    {
+      "layer": 14,
+      "n_hot": 12,
+      "n_unique_hot": 11,
+      "top_hot_dims": [
+        50,
+        52,
+        53,
+        14,
+        18,
+        43,
+        27,
+        34,
+        163,
+        164,
+        174
+      ],
+      "total_heat": 120,
+      "heat_concentration": 0.25,
+      "dim_range_ratio": {
+        "low": 1.0,
+        "mid": 0.0,
+        "high": 0.0
+      },
+      "q_distribution": {
+        "0": 11,
+        "2": 1
+      }
+    },
+    {
+      "layer": 15,
+      "n_hot": 9,
+      "n_unique_hot": 9,
+      "top_hot_dims": [
+        250,
+        1313,
+        256,
+        1317,
+        249,
+        1335,
+        1300,
+        1400,
+        1410
+      ],
+      "total_heat": 90,
+      "heat_concentration": 0.333,
+      "dim_range_ratio": {
+        "low": 0.333,
+        "mid": 0.444,
+        "high": 0.222
+      },
+      "q_distribution": {
+        "0": 9
+      }
+    },
+    {
+      "layer": 16,
+      "n_hot": 6,
+      "n_unique_hot": 6,
+      "top_hot_dims": [
+        1709,
+        1054,
+        1715,
+        1069,
+        1697,
+        1073
+      ],
+      "total_heat": 60,
+      "heat_concentration": 0.5,
+      "dim_range_ratio": {
+        "low": 0.0,
+        "mid": 0.5,
+        "high": 0.5
+      },
+      "q_distribution": {
+        "0": 6
+      }
+    },
+    {
+      "layer": 17,
+      "n_hot": 11,
+      "n_unique_hot": 11,
+      "top_hot_dims": [
+        477,
+        1180,
+        1181,
+        1194,
+        1191,
+        1192,
+        1170,
+        486,
+        1230,
+        459,
+        1239
+      ],
+      "total_heat": 110,
+      "heat_concentration": 0.273,
+      "dim_range_ratio": {
+        "low": 0.273,
+        "mid": 0.727,
+        "high": 0.0
+      },
+      "q_distribution": {
+        "0": 11
+      }
+    },
+    {
+      "layer": 18,
+      "n_hot": 12,
+      "n_unique_hot": 11,
+      "top_hot_dims": [
+        1080,
+        1078,
+        1091,
+        1069,
+        1073,
+        1118,
+        1126,
+        1109,
+        1106,
+        1008,
+        1011
+      ],
+      "total_heat": 120,
+      "heat_concentration": 0.25,
+      "dim_range_ratio": {
+        "low": 0.0,
+        "mid": 1.0,
+        "high": 0.0
+      },
+      "q_distribution": {
+        "0": 11,
+        "1": 1
+      }
+    },
+    {
+      "layer": 19,
+      "n_hot": 3,
+      "n_unique_hot": 3,
+      "top_hot_dims": [
+        194,
+        259,
+        256
+      ],
+      "total_heat": 30,
+      "heat_concentration": 1.0,
+      "dim_range_ratio": {
+        "low": 1.0,
+        "mid": 0.0,
+        "high": 0.0
+      },
+      "q_distribution": {
+        "0": 3
+      }
+    },
+    {
+      "layer": 20,
+      "n_hot": 5,
+      "n_unique_hot": 5,
+      "top_hot_dims": [
+        575,
+        660,
+        636,
+        486,
+        459
+      ],
+      "total_heat": 50,
+      "heat_concentration": 0.6,
+      "dim_range_ratio": {
+        "low": 1.0,
+        "mid": 0.0,
+        "high": 0.0
+      },
+      "q_distribution": {
+        "0": 5
+      }
+    },
+    {
+      "layer": 21,
+      "n_hot": 29,
+      "n_unique_hot": 28,
+      "top_hot_dims": [
+        1300,
+        922,
+        1270,
+        1317,
+        1361,
+        1372,
+        1335,
+        1219,
+        1192,
+        1194,
+        1245,
+        1259,
+        1230,
+        1239,
+        1238,
+        1374,
+        1375,
+        1513,
+        1489,
+        1491
+      ],
+      "total_heat": 290,
+      "heat_concentration": 0.103,
+      "dim_range_ratio": {
+        "low": 0.0,
+        "mid": 0.517,
+        "high": 0.483
+      },
+      "q_distribution": {
+        "0": 28,
+        "1": 1
+      }
+    },
+    {
+      "layer": 22,
+      "n_hot": 0,
+      "top_hot_dims": [],
+      "heat_concentration": 0.0,
+      "n_unique_hot": 0,
+      "dim_range_ratio": {
+        "low": 0,
+        "mid": 0,
+        "high": 0
+      },
+      "q_distribution": {},
+      "total_heat": 0
+    },
+    {
+      "layer": 23,
+      "n_hot": 1,
+      "n_unique_hot": 1,
+      "top_hot_dims": [
+        2030
+      ],
+      "total_heat": 10,
+      "heat_concentration": 1.0,
+      "dim_range_ratio": {
+        "low": 0.0,
+        "mid": 0.0,
+        "high": 1.0
+      },
+      "q_distribution": {
+        "0": 1
+      }
+    },
+    {
+      "layer": 24,
+      "n_hot": 20,
+      "n_unique_hot": 18,
+      "top_hot_dims": [
+        116,
+        110,
+        102,
+        134,
+        174,
+        1911,
+        164,
+        1899,
+        1901,
+        163,
+        1927,
+        1923,
+        14,
+        27,
+        1994,
+        1995,
+        18,
+        2001
+      ],
+      "total_heat": 200,
+      "heat_concentration": 0.15,
+      "dim_range_ratio": {
+        "low": 0.55,
+        "mid": 0.0,
+        "high": 0.45
+      },
+      "q_distribution": {
+        "0": 17,
+        "6": 1,
+        "7": 1,
+        "1": 1
+      }
+    },
+    {
+      "layer": 25,
+      "n_hot": 0,
+      "top_hot_dims": [],
+      "heat_concentration": 0.0,
+      "n_unique_hot": 0,
+      "dim_range_ratio": {
+        "low": 0,
+        "mid": 0,
+        "high": 0
+      },
+      "q_distribution": {},
+      "total_heat": 0
+    },
+    {
+      "layer": 26,
+      "n_hot": 6,
+      "n_unique_hot": 6,
+      "top_hot_dims": [
+        174,
+        164,
+        163,
+        227,
+        194,
+        116
+      ],
+      "total_heat": 60,
+      "heat_concentration": 0.5,
+      "dim_range_ratio": {
+        "low": 1.0,
+        "mid": 0.0,
+        "high": 0.0
+      },
+      "q_distribution": {
+        "0": 6
+      }
+    },
+    {
+      "layer": 27,
+      "n_hot": 18,
+      "n_unique_hot": 15,
+      "top_hot_dims": [
+        337,
+        338,
+        342,
+        317,
+        318,
+        324,
+        259,
+        250,
+        256,
+        307,
+        294,
+        289,
+        465,
+        459,
+        444
+      ],
+      "total_heat": 180,
+      "heat_concentration": 0.167,
+      "dim_range_ratio": {
+        "low": 1.0,
+        "mid": 0.0,
+        "high": 0.0
+      },
+      "q_distribution": {
+        "0": 14,
+        "5": 2,
+        "4": 2
+      }
+    },
+    {
+      "layer": 28,
+      "n_hot": 0,
+      "top_hot_dims": [],
+      "heat_concentration": 0.0,
+      "n_unique_hot": 0,
+      "dim_range_ratio": {
+        "low": 0,
+        "mid": 0,
+        "high": 0
+      },
+      "q_distribution": {},
+      "total_heat": 0
+    },
+    {
+      "layer": 29,
+      "n_hot": 5,
+      "n_unique_hot": 5,
+      "top_hot_dims": [
+        2035,
+        1995,
+        1994,
+        1980,
+        1979
+      ],
+      "total_heat": 50,
+      "heat_concentration": 0.6,
+      "dim_range_ratio": {
+        "low": 0.0,
+        "mid": 0.0,
+        "high": 1.0
+      },
+      "q_distribution": {
+        "0": 4,
+        "2": 1
+      }
+    },
+    {
+      "layer": 30,
+      "n_hot": 11,
+      "n_unique_hot": 11,
+      "top_hot_dims": [
+        237,
+        227,
+        256,
+        163,
+        345,
+        342,
+        307,
+        294,
+        324,
+        318,
+        18
+      ],
+      "total_heat": 110,
+      "heat_concentration": 0.273,
+      "dim_range_ratio": {
+        "low": 1.0,
+        "mid": 0.0,
+        "high": 0.0
+      },
+      "q_distribution": {
+        "0": 10,
+        "5": 1
+      }
+    },
+    {
+      "layer": 31,
+      "n_hot": 18,
+      "n_unique_hot": 13,
+      "top_hot_dims": [
+        1638,
+        1675,
+        1656,
+        1657,
+        1554,
+        1618,
+        1619,
+        1631,
+        1599,
+        1611,
+        1809,
+        1813,
+        1837
+      ],
+      "total_heat": 180,
+      "heat_concentration": 0.167,
+      "dim_range_ratio": {
+        "low": 0.0,
+        "mid": 0.0,
+        "high": 1.0
+      },
+      "q_distribution": {
+        "2": 3,
+        "0": 12,
+        "4": 2,
+        "1": 1
+      }
+    },
+    {
+      "layer": 32,
+      "n_hot": 0,
+      "top_hot_dims": [],
+      "heat_concentration": 0.0,
+      "n_unique_hot": 0,
+      "dim_range_ratio": {
+        "low": 0,
+        "mid": 0,
+        "high": 0
+      },
+      "q_distribution": {},
+      "total_heat": 0
+    },
+    {
+      "layer": 33,
+      "n_hot": 1,
+      "n_unique_hot": 1,
+      "top_hot_dims": [
+        747
+      ],
+      "total_heat": 10,
+      "heat_concentration": 1.0,
+      "dim_range_ratio": {
+        "low": 0.0,
+        "mid": 1.0,
+        "high": 0.0
+      },
+      "q_distribution": {
+        "0": 1
+      }
+    },
+    {
+      "layer": 34,
+      "n_hot": 2,
+      "n_unique_hot": 1,
+      "top_hot_dims": [
+        294
+      ],
+      "total_heat": 20,
+      "heat_concentration": 1.0,
+      "dim_range_ratio": {
+        "low": 1.0,
+        "mid": 0.0,
+        "high": 0.0
+      },
+      "q_distribution": {
+        "2": 1,
+        "4": 1
+      }
+    },
+    {
+      "layer": 35,
+      "n_hot": 4,
+      "n_unique_hot": 4,
+      "top_hot_dims": [
+        1527,
+        677,
+        684,
+        1556
+      ],
+      "total_heat": 40,
+      "heat_concentration": 0.75,
+      "dim_range_ratio": {
+        "low": 0.25,
+        "mid": 0.25,
+        "high": 0.5
+      },
+      "q_distribution": {
+        "0": 4
+      }
+    }
+  ]
+}

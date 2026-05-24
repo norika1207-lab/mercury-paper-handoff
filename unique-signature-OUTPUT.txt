@@ -1,0 +1,198 @@
+====================================================================================================
+  UNIQUE SIGNATURE — dims hot in THIS model's top-50 only, not in any other model
+====================================================================================================
+
+--- qwen2.5:3b           family=qwen       H=2048 L=36 ---
+  total top-50 dims: 50
+  shared with others: 20  ([7, 11, 12, 25, 32, 271, 289, 315, 320, 345, 384, 444, 481, 549, 702]…)
+  UNIQUE: 30 (60%)  [19, 76, 86, 112, 113, 128, 130, 237, 326, 362, 414, 614, 738, 808, 836, 896, 902, 946, 1083, 1107]…
+
+--- qwen2.5:7b           family=qwen       H=3584 L=28 ---
+  total top-50 dims: 50
+  shared with others: 24  ([7, 11, 12, 13, 14, 25, 26, 198, 279, 289, 334, 476, 481, 504, 508]…)
+  UNIQUE: 26 (52%)  [79, 96, 116, 245, 438, 565, 739, 773, 810, 1044, 1168, 1218, 1354, 1356, 1483, 1548, 1549, 1722, 2592, 2741]…
+
+--- deepseek-r1:7b       family=ds-distill H=3584 L=28 ---
+  total top-50 dims: 50
+  shared with others: 26  ([6, 11, 12, 13, 14, 25, 26, 30, 198, 220, 279, 320, 345, 374, 382]…)
+  UNIQUE: 24 (48%)  [15, 57, 164, 344, 440, 594, 608, 1008, 1140, 1373, 1481, 1485, 1576, 1588, 1829, 1849, 2197, 2490, 2632, 2646]…
+
+--- qwen2.5:32b          family=qwen       H=5120 L=64 ---
+  total top-50 dims: 50
+  shared with others: 29  ([6, 7, 11, 12, 13, 26, 137, 198, 220, 264, 271, 320, 334, 369, 419]…)
+  UNIQUE: 21 (42%)  [75, 378, 700, 906, 915, 916, 1351, 1382, 1550, 1887, 1889, 1902, 1958, 2359, 2551, 3162, 3313, 3470, 3601, 4692]…
+
+--- qwen2.5-coder:32b    family=qwen-coder H=5120 L=64 ---
+  total top-50 dims: 50
+  shared with others: 32  ([2, 7, 11, 13, 14, 25, 26, 137, 198, 220, 271, 320, 323, 330, 334]…)
+  UNIQUE: 18 (36%)  [29, 63, 253, 304, 664, 678, 1027, 1187, 1487, 1823, 2324, 2407, 2543, 3483, 3847, 4086, 4509, 4640]
+
+--- deepseek-r1:32b      family=ds-distill H=5120 L=64 ---
+  total top-50 dims: 50
+  shared with others: 33  ([2, 11, 13, 30, 32, 198, 220, 264, 271, 315, 320, 323, 369, 382, 419]…)
+  UNIQUE: 17 (34%)  [37, 147, 356, 576, 690, 757, 1246, 1634, 1882, 1948, 2337, 3151, 3158, 3309, 4128, 4633, 5116]
+
+--- llama3.1:8b          family=llama      H=4096 L=32 ---
+  total top-50 dims: 50
+  shared with others: 21  ([7, 11, 12, 14, 25, 26, 198, 220, 264, 271, 320, 323, 358, 374, 482]…)
+  UNIQUE: 29 (58%)  [17, 20, 35, 91, 98, 256, 389, 420, 436, 563, 581, 611, 706, 721, 842, 865, 947, 1035, 1053, 1193]…
+
+--- llama3.3:70b         family=llama      H=8192 L=80 ---
+  total top-50 dims: 50
+  shared with others: 22  ([7, 11, 12, 13, 198, 220, 264, 271, 320, 323, 330, 482, 529, 719, 1115]…)
+  UNIQUE: 28 (56%)  [16, 58, 627, 720, 832, 1176, 2085, 2195, 2635, 2898, 3282, 3354, 3729, 3861, 4028, 4268, 4482, 4667, 4689, 4815]…
+
+--- phi3:medium          family=phi3       H=5120 L=40 ---
+  total top-50 dims: 50
+  shared with others: 11  ([12, 13, 262, 334, 364, 421, 448, 518, 529, 758, 4286])
+  UNIQUE: 39 (78%)  [259, 260, 263, 274, 278, 313, 329, 353, 365, 372, 470, 472, 669, 847, 1068, 1234, 1768, 2277, 2929, 3579]…
+
+--- mistral-small3.2     family=mistral    H=5120 L=40 ---
+  total top-50 dims: 50
+  shared with others: 5  ([204, 1115, 2043, 2866, 2878])
+  UNIQUE: 45 (90%)  [124, 155, 177, 292, 399, 404, 530, 684, 705, 711, 1030, 1102, 1113, 1116, 1127, 1134, 1357, 1981, 2023, 2061]…
+
+--- mistral:7b           family=mistral    H=4096 L=32 ---
+  total top-50 dims: 50
+  shared with others: 2  ([801, 1124])
+  UNIQUE: 48 (96%)  [781, 819, 821, 828, 829, 844, 999, 1000, 1001, 1002, 1003, 1004, 1010, 1020, 1040, 1059, 1065, 1072, 1093, 1094]…
+
+--- falcon3:7b           family=falcon3    H=3072 L=28 ---
+  total top-50 dims: 50
+  shared with others: 8  ([11, 12, 13, 640, 2041, 2043, 2082, 2392])
+  UNIQUE: 42 (84%)  [265, 360, 979, 1372, 2026, 2031, 2033, 2035, 2036, 2037, 2038, 2040, 2049, 2056, 2086, 2087, 2118, 2127, 2182, 2183]…
+
+--- internlm2:7b         family=internlm2  H=4096 L=32 ---
+  total top-50 dims: 50
+  shared with others: 10  ([204, 262, 334, 364, 454, 640, 801, 3017, 3070, 3235])
+  UNIQUE: 40 (80%)  [281, 285, 298, 312, 328, 383, 387, 395, 402, 410, 435, 442, 446, 451, 461, 500, 512, 519, 560, 569]…
+
+====================================================================================================
+  PAIRWISE TOP-50 OVERLAP (count of shared dims, top-50 each)
+====================================================================================================
+                     qwen2.5:3b    qwen2.5:7b  deepseek-r1:   qwen2.5:32b  qwen2.5-code  deepseek-r1:   llama3.1:8b  llama3.3:70b   phi3:medium  mistral-smal    mistral:7b    falcon3:7b  internlm2:7b
+qwen2.5:3b                   50            9            6           10            8            9            6            5            2            0            0            2            0
+qwen2.5:7b                    9           50           11           12           11            8            7            6            4            0            0            3            3
+deepseek-r1:7b                6           11           50            8            8           10           10            6            3            1            0            4            0
+qwen2.5:32b                  10           12            8           50           19           16            9            9            3            0            1            3            2
+qwen2.5-coder:32b             8           11            8           19           50           17           11            9            4            0            0            3            1
+deepseek-r1:32b               9            8           10           16           17           50            7            8            1            1            0            4            2
+llama3.1:8b                   6            7           10            9           11            7           50           15            1            0            0            2            0
+llama3.3:70b                  5            6            6            9            9            8           15           50            4            1            0            3            1
+phi3:medium                   2            4            3            3            4            1            1            4           50            0            0            2            3
+mistral-small3.2              0            0            1            0            0            1            0            1            0           50            0            1            1
+mistral:7b                    0            0            0            1            0            0            0            0            0            0           50            0            1
+falcon3:7b                    2            3            4            3            3            4            2            3            2            1            0           50            1
+internlm2:7b                  0            3            0            2            1            2            0            1            3            1            1            1           50
+
+====================================================================================================
+  CHARACTER — what makes each model's UNIQUE dims structurally special?
+====================================================================================================
+
+--- qwen2.5:3b (qwen) — 30 unique dims ---
+  unique dims live in layers: {35: 30}  (total active layers=1)
+  multi-layer unique dims: 0/30 (anchors crossing ≥2 layers)
+  dim range: [19 … 1986]  median=896
+    dim  130: heat= 10  layers=[35]  q_dist={0: 1}
+    dim  614: heat= 10  layers=[35]  q_dist={0: 1}
+    dim  237: heat= 10  layers=[35]  q_dist={0: 1}
+
+--- qwen2.5:7b (qwen) — 26 unique dims ---
+  unique dims live in layers: {27: 26}  (total active layers=1)
+  multi-layer unique dims: 0/26 (anchors crossing ≥2 layers)
+  dim range: [79 … 3566]  median=1356
+    dim  116: heat= 10  layers=[27]  q_dist={0: 1}
+    dim 3055: heat= 10  layers=[27]  q_dist={0: 1}
+    dim 1548: heat= 10  layers=[27]  q_dist={0: 1}
+
+--- deepseek-r1:7b (ds-distill) — 24 unique dims ---
+  unique dims live in layers: {27: 24}  (total active layers=1)
+  multi-layer unique dims: 0/24 (anchors crossing ≥2 layers)
+  dim range: [15 … 3085]  median=1576
+    dim 3036: heat= 10  layers=[27]  q_dist={0: 1}
+    dim  608: heat= 10  layers=[27]  q_dist={0: 1}
+    dim  164: heat= 10  layers=[27]  q_dist={0: 1}
+
+--- qwen2.5:32b (qwen) — 21 unique dims ---
+  unique dims live in layers: {63: 21}  (total active layers=1)
+  multi-layer unique dims: 0/21 (anchors crossing ≥2 layers)
+  dim range: [75 … 4789]  median=1889
+    dim  700: heat=  9  layers=[63]  q_dist={0: 1}
+    dim 3162: heat=  9  layers=[63]  q_dist={0: 1}
+    dim  916: heat=  8  layers=[63]  q_dist={0: 1}
+
+--- qwen2.5-coder:32b (qwen-coder) — 18 unique dims ---
+  unique dims live in layers: {63: 18}  (total active layers=1)
+  multi-layer unique dims: 0/18 (anchors crossing ≥2 layers)
+  dim range: [29 … 4640]  median=1823
+    dim   63: heat=  9  layers=[63]  q_dist={0: 1}
+    dim 2324: heat=  8  layers=[63]  q_dist={0: 1}
+    dim 1187: heat=  8  layers=[63]  q_dist={0: 1}
+
+--- deepseek-r1:32b (ds-distill) — 17 unique dims ---
+  unique dims live in layers: {63: 17}  (total active layers=1)
+  multi-layer unique dims: 0/17 (anchors crossing ≥2 layers)
+  dim range: [37 … 5116]  median=1882
+    dim 2337: heat= 12  layers=[63]  q_dist={0: 1}
+    dim 3158: heat= 12  layers=[63]  q_dist={0: 1}
+    dim 4633: heat= 12  layers=[63]  q_dist={0: 1}
+
+--- llama3.1:8b (llama) — 29 unique dims ---
+  unique dims live in layers: {31: 29}  (total active layers=1)
+  multi-layer unique dims: 0/29 (anchors crossing ≥2 layers)
+  dim range: [17 … 3764]  median=842
+    dim 1193: heat= 10  layers=[31]  q_dist={0: 1}
+    dim 1403: heat= 10  layers=[31]  q_dist={0: 1}
+    dim  721: heat= 10  layers=[31]  q_dist={0: 1}
+
+--- llama3.3:70b (llama) — 28 unique dims ---
+  unique dims live in layers: {79: 28}  (total active layers=1)
+  multi-layer unique dims: 0/28 (anchors crossing ≥2 layers)
+  dim range: [16 … 8179]  median=4028
+    dim  832: heat= 10  layers=[79]  q_dist={0: 1}
+    dim 4028: heat=  9  layers=[79]  q_dist={0: 1}
+    dim 4689: heat= 16  layers=[79]  q_dist={0: 1, 1: 1}
+
+--- phi3:medium (phi3) — 39 unique dims ---
+  unique dims live in layers: {39: 39}  (total active layers=1)
+  multi-layer unique dims: 0/39 (anchors crossing ≥2 layers)
+  dim range: [259 … 4366]  median=3579
+  ⭐ consecutive-dim clusters (gap≤5): [[259, 260, 263], [4271, 4272, 4274], [4289, 4292, 4296, 4298, 4299, 4301, 4306], [4341, 4345, 4346], [4358, 4361, 4366]]
+    dim  313: heat= 45  layers=[39]  q_dist={0: 1, 1: 1, 2: 1, 5: 1, 3: 1, 4: 1}
+    dim 4361: heat= 10  layers=[39]  q_dist={0: 1}
+    dim 4271: heat= 75  layers=[39]  q_dist={5: 1, 4: 1, 3: 1, 2: 1, 1: 1, 0: 1, 6: 1, 7: 1, 9: 1}
+
+--- mistral-small3.2 (mistral) — 45 unique dims ---
+  unique dims live in layers: {16: 9, 13: 8, 11: 7, 1: 6, 3: 6}  (total active layers=22)
+  multi-layer unique dims: 22/45 (anchors crossing ≥2 layers)
+  dim range: [124 … 3921]  median=2232
+    dim 3039: heat= 20  layers=[7, 16]  q_dist={0: 2}
+    dim 1113: heat= 10  layers=[11]  q_dist={0: 1}
+    dim 3701: heat=180  layers=[1, 3, 5, 8, 13]  q_dist={5: 2, 6: 5, 0: 5, 3: 2, 2: 2, 1: 2}
+
+--- mistral:7b (mistral) — 48 unique dims ---
+  unique dims live in layers: {31: 48}  (total active layers=1)
+  multi-layer unique dims: 0/48 (anchors crossing ≥2 layers)
+  dim range: [781 … 3613]  median=1155
+  ⭐ consecutive-dim clusters (gap≤5): [[999, 1000, 1001, 1002, 1003, 1004], [1250, 1255, 1259]]
+    dim 1065: heat=226  layers=[31]  q_dist={0: 1}
+    dim 1000: heat=223  layers=[31]  q_dist={0: 1}
+    dim 1001: heat=216  layers=[31]  q_dist={0: 1}
+
+--- falcon3:7b (falcon3) — 42 unique dims ---
+  unique dims live in layers: {27: 42}  (total active layers=1)
+  multi-layer unique dims: 0/42 (anchors crossing ≥2 layers)
+  dim range: [265 … 2999]  median=2185
+  ⭐ consecutive-dim clusters (gap≤5): [[2026, 2031, 2033, 2035, 2036, 2037, 2038, 2040], [2182, 2183, 2184, 2185, 2186], [2303, 2305, 2306]]
+    dim 2226: heat=337  layers=[27]  q_dist={0: 1}
+    dim 2036: heat=152  layers=[27]  q_dist={0: 1}
+    dim 2035: heat=148  layers=[27]  q_dist={0: 1}
+
+--- internlm2:7b (internlm2) — 40 unique dims ---
+  unique dims live in layers: {31: 40}  (total active layers=1)
+  multi-layer unique dims: 0/40 (anchors crossing ≥2 layers)
+  dim range: [281 … 3836]  median=579
+  ⭐ consecutive-dim clusters (gap≤5): [[442, 446, 451]]
+    dim  451: heat=179  layers=[31]  q_dist={0: 1}
+    dim  328: heat=131  layers=[31]  q_dist={0: 1}
+    dim  402: heat=128  layers=[31]  q_dist={0: 1}

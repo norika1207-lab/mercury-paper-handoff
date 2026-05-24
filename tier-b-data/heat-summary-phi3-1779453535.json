@@ -1,0 +1,1412 @@
+{
+  "ts": 1779453535,
+  "model": "phi3:medium",
+  "architecture": "phi3",
+  "n_layer": 40,
+  "hidden_size": 5120,
+  "n_quant": 10,
+  "total_neurons": 2048000,
+  "neurons_with_heat": 9784,
+  "hottest_top200": [
+    {
+      "neuron_id": 1999930,
+      "layer": 39,
+      "dim": 313,
+      "quantile_idx": 0,
+      "heat": 10
+    },
+    {
+      "neuron_id": 1996939,
+      "layer": 39,
+      "dim": 13,
+      "quantile_idx": 9,
+      "heat": 10
+    },
+    {
+      "neuron_id": 2040410,
+      "layer": 39,
+      "dim": 4361,
+      "quantile_idx": 0,
+      "heat": 10
+    },
+    {
+      "neuron_id": 2039515,
+      "layer": 39,
+      "dim": 4271,
+      "quantile_idx": 5,
+      "heat": 9
+    },
+    {
+      "neuron_id": 2002090,
+      "layer": 39,
+      "dim": 529,
+      "quantile_idx": 0,
+      "heat": 9
+    },
+    {
+      "neuron_id": 2039540,
+      "layer": 39,
+      "dim": 4274,
+      "quantile_idx": 0,
+      "heat": 9
+    },
+    {
+      "neuron_id": 2039514,
+      "layer": 39,
+      "dim": 4271,
+      "quantile_idx": 4,
+      "heat": 9
+    },
+    {
+      "neuron_id": 1996932,
+      "layer": 39,
+      "dim": 13,
+      "quantile_idx": 2,
+      "heat": 9
+    },
+    {
+      "neuron_id": 2001500,
+      "layer": 39,
+      "dim": 470,
+      "quantile_idx": 0,
+      "heat": 9
+    },
+    {
+      "neuron_id": 1996931,
+      "layer": 39,
+      "dim": 13,
+      "quantile_idx": 1,
+      "heat": 9
+    },
+    {
+      "neuron_id": 1996930,
+      "layer": 39,
+      "dim": 13,
+      "quantile_idx": 0,
+      "heat": 9
+    },
+    {
+      "neuron_id": 2039860,
+      "layer": 39,
+      "dim": 4306,
+      "quantile_idx": 0,
+      "heat": 9
+    },
+    {
+      "neuron_id": 2040460,
+      "layer": 39,
+      "dim": 4366,
+      "quantile_idx": 0,
+      "heat": 9
+    },
+    {
+      "neuron_id": 2039513,
+      "layer": 39,
+      "dim": 4271,
+      "quantile_idx": 3,
+      "heat": 9
+    },
+    {
+      "neuron_id": 2039760,
+      "layer": 39,
+      "dim": 4296,
+      "quantile_idx": 0,
+      "heat": 9
+    },
+    {
+      "neuron_id": 2000520,
+      "layer": 39,
+      "dim": 372,
+      "quantile_idx": 0,
+      "heat": 9
+    },
+    {
+      "neuron_id": 2004380,
+      "layer": 39,
+      "dim": 758,
+      "quantile_idx": 0,
+      "heat": 9
+    },
+    {
+      "neuron_id": 2000140,
+      "layer": 39,
+      "dim": 334,
+      "quantile_idx": 0,
+      "heat": 9
+    },
+    {
+      "neuron_id": 2039780,
+      "layer": 39,
+      "dim": 4298,
+      "quantile_idx": 0,
+      "heat": 9
+    },
+    {
+      "neuron_id": 2039810,
+      "layer": 39,
+      "dim": 4301,
+      "quantile_idx": 0,
+      "heat": 9
+    },
+    {
+      "neuron_id": 2000440,
+      "layer": 39,
+      "dim": 364,
+      "quantile_idx": 0,
+      "heat": 9
+    },
+    {
+      "neuron_id": 2039790,
+      "layer": 39,
+      "dim": 4299,
+      "quantile_idx": 0,
+      "heat": 9
+    },
+    {
+      "neuron_id": 2039690,
+      "layer": 39,
+      "dim": 4289,
+      "quantile_idx": 0,
+      "heat": 9
+    },
+    {
+      "neuron_id": 2001980,
+      "layer": 39,
+      "dim": 518,
+      "quantile_idx": 0,
+      "heat": 9
+    },
+    {
+      "neuron_id": 2000450,
+      "layer": 39,
+      "dim": 365,
+      "quantile_idx": 0,
+      "heat": 9
+    },
+    {
+      "neuron_id": 1999540,
+      "layer": 39,
+      "dim": 274,
+      "quantile_idx": 0,
+      "heat": 9
+    },
+    {
+      "neuron_id": 2032590,
+      "layer": 39,
+      "dim": 3579,
+      "quantile_idx": 0,
+      "heat": 9
+    },
+    {
+      "neuron_id": 2039512,
+      "layer": 39,
+      "dim": 4271,
+      "quantile_idx": 2,
+      "heat": 9
+    },
+    {
+      "neuron_id": 2039511,
+      "layer": 39,
+      "dim": 4271,
+      "quantile_idx": 1,
+      "heat": 9
+    },
+    {
+      "neuron_id": 2040100,
+      "layer": 39,
+      "dim": 4330,
+      "quantile_idx": 0,
+      "heat": 9
+    },
+    {
+      "neuron_id": 1999390,
+      "layer": 39,
+      "dim": 259,
+      "quantile_idx": 0,
+      "heat": 9
+    },
+    {
+      "neuron_id": 2039950,
+      "layer": 39,
+      "dim": 4315,
+      "quantile_idx": 0,
+      "heat": 9
+    },
+    {
+      "neuron_id": 2001280,
+      "layer": 39,
+      "dim": 448,
+      "quantile_idx": 0,
+      "heat": 9
+    },
+    {
+      "neuron_id": 2039980,
+      "layer": 39,
+      "dim": 4318,
+      "quantile_idx": 0,
+      "heat": 9
+    },
+    {
+      "neuron_id": 2039510,
+      "layer": 39,
+      "dim": 4271,
+      "quantile_idx": 0,
+      "heat": 8
+    },
+    {
+      "neuron_id": 2039520,
+      "layer": 39,
+      "dim": 4272,
+      "quantile_idx": 0,
+      "heat": 8
+    },
+    {
+      "neuron_id": 2026090,
+      "layer": 39,
+      "dim": 2929,
+      "quantile_idx": 0,
+      "heat": 8
+    },
+    {
+      "neuron_id": 2007480,
+      "layer": 39,
+      "dim": 1068,
+      "quantile_idx": 0,
+      "heat": 8
+    },
+    {
+      "neuron_id": 1996920,
+      "layer": 39,
+      "dim": 12,
+      "quantile_idx": 0,
+      "heat": 8
+    },
+    {
+      "neuron_id": 2009140,
+      "layer": 39,
+      "dim": 1234,
+      "quantile_idx": 0,
+      "heat": 8
+    },
+    {
+      "neuron_id": 1999400,
+      "layer": 39,
+      "dim": 260,
+      "quantile_idx": 0,
+      "heat": 8
+    },
+    {
+      "neuron_id": 1999580,
+      "layer": 39,
+      "dim": 278,
+      "quantile_idx": 0,
+      "heat": 8
+    },
+    {
+      "neuron_id": 2039660,
+      "layer": 39,
+      "dim": 4286,
+      "quantile_idx": 0,
+      "heat": 8
+    },
+    {
+      "neuron_id": 1996935,
+      "layer": 39,
+      "dim": 13,
+      "quantile_idx": 5,
+      "heat": 8
+    },
+    {
+      "neuron_id": 2014480,
+      "layer": 39,
+      "dim": 1768,
+      "quantile_idx": 0,
+      "heat": 8
+    },
+    {
+      "neuron_id": 2040210,
+      "layer": 39,
+      "dim": 4341,
+      "quantile_idx": 0,
+      "heat": 8
+    },
+    {
+      "neuron_id": 2005270,
+      "layer": 39,
+      "dim": 847,
+      "quantile_idx": 0,
+      "heat": 8
+    },
+    {
+      "neuron_id": 2000090,
+      "layer": 39,
+      "dim": 329,
+      "quantile_idx": 0,
+      "heat": 8
+    },
+    {
+      "neuron_id": 2039516,
+      "layer": 39,
+      "dim": 4271,
+      "quantile_idx": 6,
+      "heat": 8
+    },
+    {
+      "neuron_id": 2000330,
+      "layer": 39,
+      "dim": 353,
+      "quantile_idx": 0,
+      "heat": 8
+    },
+    {
+      "neuron_id": 2040260,
+      "layer": 39,
+      "dim": 4346,
+      "quantile_idx": 0,
+      "heat": 8
+    },
+    {
+      "neuron_id": 1999430,
+      "layer": 39,
+      "dim": 263,
+      "quantile_idx": 0,
+      "heat": 8
+    },
+    {
+      "neuron_id": 2039720,
+      "layer": 39,
+      "dim": 4292,
+      "quantile_idx": 0,
+      "heat": 8
+    },
+    {
+      "neuron_id": 2040250,
+      "layer": 39,
+      "dim": 4345,
+      "quantile_idx": 0,
+      "heat": 8
+    },
+    {
+      "neuron_id": 2003490,
+      "layer": 39,
+      "dim": 669,
+      "quantile_idx": 0,
+      "heat": 8
+    },
+    {
+      "neuron_id": 2001520,
+      "layer": 39,
+      "dim": 472,
+      "quantile_idx": 0,
+      "heat": 8
+    },
+    {
+      "neuron_id": 1999420,
+      "layer": 39,
+      "dim": 262,
+      "quantile_idx": 0,
+      "heat": 8
+    },
+    {
+      "neuron_id": 2040380,
+      "layer": 39,
+      "dim": 4358,
+      "quantile_idx": 0,
+      "heat": 8
+    },
+    {
+      "neuron_id": 2039791,
+      "layer": 39,
+      "dim": 4299,
+      "quantile_idx": 1,
+      "heat": 8
+    },
+    {
+      "neuron_id": 2001010,
+      "layer": 39,
+      "dim": 421,
+      "quantile_idx": 0,
+      "heat": 8
+    },
+    {
+      "neuron_id": 2019570,
+      "layer": 39,
+      "dim": 2277,
+      "quantile_idx": 0,
+      "heat": 8
+    },
+    {
+      "neuron_id": 2039890,
+      "layer": 39,
+      "dim": 4309,
+      "quantile_idx": 0,
+      "heat": 8
+    },
+    {
+      "neuron_id": 2009300,
+      "layer": 39,
+      "dim": 1250,
+      "quantile_idx": 0,
+      "heat": 8
+    },
+    {
+      "neuron_id": 2001981,
+      "layer": 39,
+      "dim": 518,
+      "quantile_idx": 1,
+      "heat": 8
+    },
+    {
+      "neuron_id": 1998530,
+      "layer": 39,
+      "dim": 173,
+      "quantile_idx": 0,
+      "heat": 8
+    },
+    {
+      "neuron_id": 2008640,
+      "layer": 39,
+      "dim": 1184,
+      "quantile_idx": 0,
+      "heat": 8
+    },
+    {
+      "neuron_id": 2009600,
+      "layer": 39,
+      "dim": 1280,
+      "quantile_idx": 0,
+      "heat": 8
+    },
+    {
+      "neuron_id": 2001090,
+      "layer": 39,
+      "dim": 429,
+      "quantile_idx": 0,
+      "heat": 8
+    },
+    {
+      "neuron_id": 1999931,
+      "layer": 39,
+      "dim": 313,
+      "quantile_idx": 1,
+      "heat": 8
+    },
+    {
+      "neuron_id": 2039940,
+      "layer": 39,
+      "dim": 4314,
+      "quantile_idx": 0,
+      "heat": 8
+    },
+    {
+      "neuron_id": 2005360,
+      "layer": 39,
+      "dim": 856,
+      "quantile_idx": 0,
+      "heat": 8
+    },
+    {
+      "neuron_id": 1999820,
+      "layer": 39,
+      "dim": 302,
+      "quantile_idx": 0,
+      "heat": 8
+    },
+    {
+      "neuron_id": 2044380,
+      "layer": 39,
+      "dim": 4758,
+      "quantile_idx": 0,
+      "heat": 8
+    },
+    {
+      "neuron_id": 2038160,
+      "layer": 39,
+      "dim": 4136,
+      "quantile_idx": 0,
+      "heat": 8
+    },
+    {
+      "neuron_id": 2001281,
+      "layer": 39,
+      "dim": 448,
+      "quantile_idx": 1,
+      "heat": 8
+    },
+    {
+      "neuron_id": 2001282,
+      "layer": 39,
+      "dim": 448,
+      "quantile_idx": 2,
+      "heat": 8
+    },
+    {
+      "neuron_id": 2039792,
+      "layer": 39,
+      "dim": 4299,
+      "quantile_idx": 2,
+      "heat": 8
+    },
+    {
+      "neuron_id": 2039880,
+      "layer": 39,
+      "dim": 4308,
+      "quantile_idx": 0,
+      "heat": 8
+    },
+    {
+      "neuron_id": 2020810,
+      "layer": 39,
+      "dim": 2401,
+      "quantile_idx": 0,
+      "heat": 8
+    },
+    {
+      "neuron_id": 2047120,
+      "layer": 39,
+      "dim": 5032,
+      "quantile_idx": 0,
+      "heat": 8
+    },
+    {
+      "neuron_id": 2001940,
+      "layer": 39,
+      "dim": 514,
+      "quantile_idx": 0,
+      "heat": 8
+    },
+    {
+      "neuron_id": 2040160,
+      "layer": 39,
+      "dim": 4336,
+      "quantile_idx": 0,
+      "heat": 8
+    },
+    {
+      "neuron_id": 2009670,
+      "layer": 39,
+      "dim": 1287,
+      "quantile_idx": 0,
+      "heat": 8
+    },
+    {
+      "neuron_id": 1999950,
+      "layer": 39,
+      "dim": 315,
+      "quantile_idx": 0,
+      "heat": 8
+    },
+    {
+      "neuron_id": 2000940,
+      "layer": 39,
+      "dim": 414,
+      "quantile_idx": 0,
+      "heat": 8
+    },
+    {
+      "neuron_id": 2000760,
+      "layer": 39,
+      "dim": 396,
+      "quantile_idx": 0,
+      "heat": 8
+    },
+    {
+      "neuron_id": 2039630,
+      "layer": 39,
+      "dim": 4283,
+      "quantile_idx": 0,
+      "heat": 8
+    },
+    {
+      "neuron_id": 2045850,
+      "layer": 39,
+      "dim": 4905,
+      "quantile_idx": 0,
+      "heat": 8
+    },
+    {
+      "neuron_id": 2000560,
+      "layer": 39,
+      "dim": 376,
+      "quantile_idx": 0,
+      "heat": 8
+    },
+    {
+      "neuron_id": 2040130,
+      "layer": 39,
+      "dim": 4333,
+      "quantile_idx": 0,
+      "heat": 8
+    },
+    {
+      "neuron_id": 1999932,
+      "layer": 39,
+      "dim": 313,
+      "quantile_idx": 2,
+      "heat": 8
+    },
+    {
+      "neuron_id": 1999990,
+      "layer": 39,
+      "dim": 319,
+      "quantile_idx": 0,
+      "heat": 8
+    },
+    {
+      "neuron_id": 2005490,
+      "layer": 39,
+      "dim": 869,
+      "quantile_idx": 0,
+      "heat": 7
+    },
+    {
+      "neuron_id": 2013580,
+      "layer": 39,
+      "dim": 1678,
+      "quantile_idx": 0,
+      "heat": 7
+    },
+    {
+      "neuron_id": 2045851,
+      "layer": 39,
+      "dim": 4905,
+      "quantile_idx": 1,
+      "heat": 7
+    },
+    {
+      "neuron_id": 2004110,
+      "layer": 39,
+      "dim": 731,
+      "quantile_idx": 0,
+      "heat": 7
+    },
+    {
+      "neuron_id": 2000170,
+      "layer": 39,
+      "dim": 337,
+      "quantile_idx": 0,
+      "heat": 7
+    },
+    {
+      "neuron_id": 2000910,
+      "layer": 39,
+      "dim": 411,
+      "quantile_idx": 0,
+      "heat": 7
+    },
+    {
+      "neuron_id": 1999500,
+      "layer": 39,
+      "dim": 270,
+      "quantile_idx": 0,
+      "heat": 7
+    },
+    {
+      "neuron_id": 2039700,
+      "layer": 39,
+      "dim": 4290,
+      "quantile_idx": 0,
+      "heat": 7
+    },
+    {
+      "neuron_id": 2041610,
+      "layer": 39,
+      "dim": 4481,
+      "quantile_idx": 0,
+      "heat": 7
+    },
+    {
+      "neuron_id": 2004070,
+      "layer": 39,
+      "dim": 727,
+      "quantile_idx": 0,
+      "heat": 7
+    },
+    {
+      "neuron_id": 2001240,
+      "layer": 39,
+      "dim": 444,
+      "quantile_idx": 0,
+      "heat": 7
+    },
+    {
+      "neuron_id": 2001720,
+      "layer": 39,
+      "dim": 492,
+      "quantile_idx": 0,
+      "heat": 7
+    },
+    {
+      "neuron_id": 2039960,
+      "layer": 39,
+      "dim": 4316,
+      "quantile_idx": 0,
+      "heat": 7
+    },
+    {
+      "neuron_id": 2040080,
+      "layer": 39,
+      "dim": 4328,
+      "quantile_idx": 0,
+      "heat": 7
+    },
+    {
+      "neuron_id": 1999860,
+      "layer": 39,
+      "dim": 306,
+      "quantile_idx": 0,
+      "heat": 7
+    },
+    {
+      "neuron_id": 2001060,
+      "layer": 39,
+      "dim": 426,
+      "quantile_idx": 0,
+      "heat": 7
+    },
+    {
+      "neuron_id": 2040110,
+      "layer": 39,
+      "dim": 4331,
+      "quantile_idx": 0,
+      "heat": 7
+    },
+    {
+      "neuron_id": 2039910,
+      "layer": 39,
+      "dim": 4311,
+      "quantile_idx": 0,
+      "heat": 7
+    },
+    {
+      "neuron_id": 1999770,
+      "layer": 39,
+      "dim": 297,
+      "quantile_idx": 0,
+      "heat": 7
+    },
+    {
+      "neuron_id": 2039850,
+      "layer": 39,
+      "dim": 4305,
+      "quantile_idx": 0,
+      "heat": 7
+    },
+    {
+      "neuron_id": 1999935,
+      "layer": 39,
+      "dim": 313,
+      "quantile_idx": 5,
+      "heat": 7
+    },
+    {
+      "neuron_id": 2003980,
+      "layer": 39,
+      "dim": 718,
+      "quantile_idx": 0,
+      "heat": 7
+    },
+    {
+      "neuron_id": 2000980,
+      "layer": 39,
+      "dim": 418,
+      "quantile_idx": 0,
+      "heat": 7
+    },
+    {
+      "neuron_id": 2039820,
+      "layer": 39,
+      "dim": 4302,
+      "quantile_idx": 0,
+      "heat": 7
+    },
+    {
+      "neuron_id": 1999970,
+      "layer": 39,
+      "dim": 317,
+      "quantile_idx": 0,
+      "heat": 7
+    },
+    {
+      "neuron_id": 2000021,
+      "layer": 39,
+      "dim": 322,
+      "quantile_idx": 1,
+      "heat": 7
+    },
+    {
+      "neuron_id": 2039781,
+      "layer": 39,
+      "dim": 4298,
+      "quantile_idx": 1,
+      "heat": 7
+    },
+    {
+      "neuron_id": 1999650,
+      "layer": 39,
+      "dim": 285,
+      "quantile_idx": 0,
+      "heat": 7
+    },
+    {
+      "neuron_id": 2010490,
+      "layer": 39,
+      "dim": 1369,
+      "quantile_idx": 0,
+      "heat": 7
+    },
+    {
+      "neuron_id": 2000050,
+      "layer": 39,
+      "dim": 325,
+      "quantile_idx": 0,
+      "heat": 7
+    },
+    {
+      "neuron_id": 1999490,
+      "layer": 39,
+      "dim": 269,
+      "quantile_idx": 0,
+      "heat": 7
+    },
+    {
+      "neuron_id": 2012300,
+      "layer": 39,
+      "dim": 1550,
+      "quantile_idx": 0,
+      "heat": 7
+    },
+    {
+      "neuron_id": 2008720,
+      "layer": 39,
+      "dim": 1192,
+      "quantile_idx": 0,
+      "heat": 7
+    },
+    {
+      "neuron_id": 2040230,
+      "layer": 39,
+      "dim": 4343,
+      "quantile_idx": 0,
+      "heat": 7
+    },
+    {
+      "neuron_id": 2000100,
+      "layer": 39,
+      "dim": 330,
+      "quantile_idx": 0,
+      "heat": 7
+    },
+    {
+      "neuron_id": 2039725,
+      "layer": 39,
+      "dim": 4292,
+      "quantile_idx": 5,
+      "heat": 7
+    },
+    {
+      "neuron_id": 2039722,
+      "layer": 39,
+      "dim": 4292,
+      "quantile_idx": 2,
+      "heat": 7
+    },
+    {
+      "neuron_id": 2001230,
+      "layer": 39,
+      "dim": 443,
+      "quantile_idx": 0,
+      "heat": 7
+    },
+    {
+      "neuron_id": 1998450,
+      "layer": 39,
+      "dim": 165,
+      "quantile_idx": 0,
+      "heat": 7
+    },
+    {
+      "neuron_id": 2002620,
+      "layer": 39,
+      "dim": 582,
+      "quantile_idx": 0,
+      "heat": 7
+    },
+    {
+      "neuron_id": 2040330,
+      "layer": 39,
+      "dim": 4353,
+      "quantile_idx": 0,
+      "heat": 7
+    },
+    {
+      "neuron_id": 1999840,
+      "layer": 39,
+      "dim": 304,
+      "quantile_idx": 0,
+      "heat": 7
+    },
+    {
+      "neuron_id": 1996937,
+      "layer": 39,
+      "dim": 13,
+      "quantile_idx": 7,
+      "heat": 7
+    },
+    {
+      "neuron_id": 1999394,
+      "layer": 39,
+      "dim": 259,
+      "quantile_idx": 4,
+      "heat": 7
+    },
+    {
+      "neuron_id": 1999393,
+      "layer": 39,
+      "dim": 259,
+      "quantile_idx": 3,
+      "heat": 7
+    },
+    {
+      "neuron_id": 1999392,
+      "layer": 39,
+      "dim": 259,
+      "quantile_idx": 2,
+      "heat": 7
+    },
+    {
+      "neuron_id": 2006000,
+      "layer": 39,
+      "dim": 920,
+      "quantile_idx": 0,
+      "heat": 7
+    },
+    {
+      "neuron_id": 2003510,
+      "layer": 39,
+      "dim": 671,
+      "quantile_idx": 0,
+      "heat": 7
+    },
+    {
+      "neuron_id": 2009672,
+      "layer": 39,
+      "dim": 1287,
+      "quantile_idx": 2,
+      "heat": 7
+    },
+    {
+      "neuron_id": 1996936,
+      "layer": 39,
+      "dim": 13,
+      "quantile_idx": 6,
+      "heat": 7
+    },
+    {
+      "neuron_id": 1996933,
+      "layer": 39,
+      "dim": 13,
+      "quantile_idx": 3,
+      "heat": 7
+    },
+    {
+      "neuron_id": 2040830,
+      "layer": 39,
+      "dim": 4403,
+      "quantile_idx": 0,
+      "heat": 7
+    },
+    {
+      "neuron_id": 2011120,
+      "layer": 39,
+      "dim": 1432,
+      "quantile_idx": 0,
+      "heat": 7
+    },
+    {
+      "neuron_id": 2000820,
+      "layer": 39,
+      "dim": 402,
+      "quantile_idx": 0,
+      "heat": 7
+    },
+    {
+      "neuron_id": 2043670,
+      "layer": 39,
+      "dim": 4687,
+      "quantile_idx": 0,
+      "heat": 7
+    },
+    {
+      "neuron_id": 1998740,
+      "layer": 39,
+      "dim": 194,
+      "quantile_idx": 0,
+      "heat": 7
+    },
+    {
+      "neuron_id": 2002450,
+      "layer": 39,
+      "dim": 565,
+      "quantile_idx": 0,
+      "heat": 7
+    },
+    {
+      "neuron_id": 2000600,
+      "layer": 39,
+      "dim": 380,
+      "quantile_idx": 0,
+      "heat": 7
+    },
+    {
+      "neuron_id": 2003160,
+      "layer": 39,
+      "dim": 636,
+      "quantile_idx": 0,
+      "heat": 7
+    },
+    {
+      "neuron_id": 2046240,
+      "layer": 39,
+      "dim": 4944,
+      "quantile_idx": 0,
+      "heat": 7
+    },
+    {
+      "neuron_id": 2000430,
+      "layer": 39,
+      "dim": 363,
+      "quantile_idx": 0,
+      "heat": 7
+    },
+    {
+      "neuron_id": 2040340,
+      "layer": 39,
+      "dim": 4354,
+      "quantile_idx": 0,
+      "heat": 7
+    },
+    {
+      "neuron_id": 2001950,
+      "layer": 39,
+      "dim": 515,
+      "quantile_idx": 0,
+      "heat": 7
+    },
+    {
+      "neuron_id": 2005830,
+      "layer": 39,
+      "dim": 903,
+      "quantile_idx": 0,
+      "heat": 7
+    },
+    {
+      "neuron_id": 2000480,
+      "layer": 39,
+      "dim": 368,
+      "quantile_idx": 0,
+      "heat": 7
+    },
+    {
+      "neuron_id": 2003530,
+      "layer": 39,
+      "dim": 673,
+      "quantile_idx": 0,
+      "heat": 7
+    },
+    {
+      "neuron_id": 2009671,
+      "layer": 39,
+      "dim": 1287,
+      "quantile_idx": 1,
+      "heat": 7
+    },
+    {
+      "neuron_id": 2006010,
+      "layer": 39,
+      "dim": 921,
+      "quantile_idx": 0,
+      "heat": 7
+    },
+    {
+      "neuron_id": 2001982,
+      "layer": 39,
+      "dim": 518,
+      "quantile_idx": 2,
+      "heat": 7
+    },
+    {
+      "neuron_id": 1999160,
+      "layer": 39,
+      "dim": 236,
+      "quantile_idx": 0,
+      "heat": 7
+    },
+    {
+      "neuron_id": 1999395,
+      "layer": 39,
+      "dim": 259,
+      "quantile_idx": 5,
+      "heat": 7
+    },
+    {
+      "neuron_id": 1999480,
+      "layer": 39,
+      "dim": 268,
+      "quantile_idx": 0,
+      "heat": 7
+    },
+    {
+      "neuron_id": 2000210,
+      "layer": 39,
+      "dim": 341,
+      "quantile_idx": 0,
+      "heat": 7
+    },
+    {
+      "neuron_id": 2039530,
+      "layer": 39,
+      "dim": 4273,
+      "quantile_idx": 0,
+      "heat": 7
+    },
+    {
+      "neuron_id": 2005710,
+      "layer": 39,
+      "dim": 891,
+      "quantile_idx": 0,
+      "heat": 7
+    },
+    {
+      "neuron_id": 2000700,
+      "layer": 39,
+      "dim": 390,
+      "quantile_idx": 0,
+      "heat": 7
+    },
+    {
+      "neuron_id": 2039517,
+      "layer": 39,
+      "dim": 4271,
+      "quantile_idx": 7,
+      "heat": 7
+    },
+    {
+      "neuron_id": 2039519,
+      "layer": 39,
+      "dim": 4271,
+      "quantile_idx": 9,
+      "heat": 7
+    },
+    {
+      "neuron_id": 2001310,
+      "layer": 39,
+      "dim": 451,
+      "quantile_idx": 0,
+      "heat": 7
+    },
+    {
+      "neuron_id": 2012560,
+      "layer": 39,
+      "dim": 1576,
+      "quantile_idx": 0,
+      "heat": 7
+    },
+    {
+      "neuron_id": 2001970,
+      "layer": 39,
+      "dim": 517,
+      "quantile_idx": 0,
+      "heat": 6
+    },
+    {
+      "neuron_id": 2000561,
+      "layer": 39,
+      "dim": 376,
+      "quantile_idx": 1,
+      "heat": 6
+    },
+    {
+      "neuron_id": 2000470,
+      "layer": 39,
+      "dim": 367,
+      "quantile_idx": 0,
+      "heat": 6
+    },
+    {
+      "neuron_id": 1999933,
+      "layer": 39,
+      "dim": 313,
+      "quantile_idx": 3,
+      "heat": 6
+    },
+    {
+      "neuron_id": 2031800,
+      "layer": 39,
+      "dim": 3500,
+      "quantile_idx": 0,
+      "heat": 6
+    },
+    {
+      "neuron_id": 2004570,
+      "layer": 39,
+      "dim": 777,
+      "quantile_idx": 0,
+      "heat": 6
+    },
+    {
+      "neuron_id": 2002740,
+      "layer": 39,
+      "dim": 594,
+      "quantile_idx": 0,
+      "heat": 6
+    },
+    {
+      "neuron_id": 2002190,
+      "layer": 39,
+      "dim": 539,
+      "quantile_idx": 0,
+      "heat": 6
+    },
+    {
+      "neuron_id": 2021940,
+      "layer": 39,
+      "dim": 2514,
+      "quantile_idx": 0,
+      "heat": 6
+    },
+    {
+      "neuron_id": 2039830,
+      "layer": 39,
+      "dim": 4303,
+      "quantile_idx": 0,
+      "heat": 6
+    },
+    {
+      "neuron_id": 1999850,
+      "layer": 39,
+      "dim": 305,
+      "quantile_idx": 0,
+      "heat": 6
+    },
+    {
+      "neuron_id": 1998410,
+      "layer": 39,
+      "dim": 161,
+      "quantile_idx": 0,
+      "heat": 6
+    },
+    {
+      "neuron_id": 1999940,
+      "layer": 39,
+      "dim": 314,
+      "quantile_idx": 0,
+      "heat": 6
+    },
+    {
+      "neuron_id": 1999934,
+      "layer": 39,
+      "dim": 313,
+      "quantile_idx": 4,
+      "heat": 6
+    },
+    {
+      "neuron_id": 2002040,
+      "layer": 39,
+      "dim": 524,
+      "quantile_idx": 0,
+      "heat": 6
+    },
+    {
+      "neuron_id": 2000590,
+      "layer": 39,
+      "dim": 379,
+      "quantile_idx": 0,
+      "heat": 6
+    },
+    {
+      "neuron_id": 2039863,
+      "layer": 39,
+      "dim": 4306,
+      "quantile_idx": 3,
+      "heat": 6
+    },
+    {
+      "neuron_id": 2002710,
+      "layer": 39,
+      "dim": 591,
+      "quantile_idx": 0,
+      "heat": 6
+    },
+    {
+      "neuron_id": 2000730,
+      "layer": 39,
+      "dim": 393,
+      "quantile_idx": 0,
+      "heat": 6
+    },
+    {
+      "neuron_id": 2007740,
+      "layer": 39,
+      "dim": 1094,
+      "quantile_idx": 0,
+      "heat": 6
+    },
+    {
+      "neuron_id": 1998390,
+      "layer": 39,
+      "dim": 159,
+      "quantile_idx": 0,
+      "heat": 6
+    },
+    {
+      "neuron_id": 2002050,
+      "layer": 39,
+      "dim": 525,
+      "quantile_idx": 0,
+      "heat": 6
+    },
+    {
+      "neuron_id": 2009020,
+      "layer": 39,
+      "dim": 1222,
+      "quantile_idx": 0,
+      "heat": 6
+    },
+    {
+      "neuron_id": 1998380,
+      "layer": 39,
+      "dim": 158,
+      "quantile_idx": 0,
+      "heat": 6
+    },
+    {
+      "neuron_id": 2019572,
+      "layer": 39,
+      "dim": 2277,
+      "quantile_idx": 2,
+      "heat": 6
+    },
+    {
+      "neuron_id": 2019574,
+      "layer": 39,
+      "dim": 2277,
+      "quantile_idx": 4,
+      "heat": 6
+    },
+    {
+      "neuron_id": 2000630,
+      "layer": 39,
+      "dim": 383,
+      "quantile_idx": 0,
+      "heat": 6
+    },
+    {
+      "neuron_id": 2007400,
+      "layer": 39,
+      "dim": 1060,
+      "quantile_idx": 0,
+      "heat": 6
+    }
+  ]
+}
